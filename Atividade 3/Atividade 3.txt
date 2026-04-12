@@ -1,0 +1,145 @@
+$ level intro1
+
+$ hint
+
+Simplesmente digite 'git commit' duas vezes para concluir!
+
+$ delay 2000
+
+$ show goal
+
+$ git commit
+
+$ git commit
+
+
+$ level intro2
+
+$ hint
+
+Crie uma nova branch com "git branch [nome]" e mude para ela com "git checkout [nome]"
+
+$ delay 2000
+
+$ show goal
+
+$ git checkout -b bugFix
+
+
+
+$ level intro3
+
+$ hint
+
+Lembre-se de commitar na ordem especificada (bugFix antes de main)
+
+$ delay 2000
+
+$ show goal
+
+$ git checkout -b bugFix
+
+$ git commit
+
+$ git checkout main
+
+$ git commit
+
+$ git merge bugFix
+
+
+
+$ level intro4
+
+$ hint
+
+O bugFix precisa ser commitado primeiro
+
+$ delay 2000
+
+$ show goal
+
+$ git checkout -b bugFix
+
+$ git commit
+
+$ git checkout main
+
+$ git commit
+
+$ git checkout bugFix
+
+$ git rebase main
+
+
+$ level rampup1
+
+$ hint
+
+Use o identificador (hash) sobre o commit para te ajudar!
+
+$ delay 2000
+
+$ show goal
+
+$ git checkout C2
+
+$ git checkout C4
+
+
+$ level rampup2
+
+$ hint
+
+Não se esqueça do operador circunflexo (^)
+
+$ delay 2000
+
+$ show goal
+
+$ git checkout bugFix^
+
+$ level rampup3
+
+$ hint
+
+Você precisará usar pelo menos uma referência direta (hash) para completar este nível
+
+$ delay 2000
+
+$ show goal
+
+$ git branch -f main C1
+
+$ git branch -f bugFix HEAD~2
+
+$ git commit
+
+Cuidado! Modo Detached HEAD
+
+$ git checkout C6
+
+$ git branch -f main C6
+
+$ git checkout HEAD~3
+
+
+$ level rampup4
+
+$ hint
+
+Lembre que revert e reset recebem parâmetros diferentes
+
+$ delay 2000
+
+$ show goal
+
+$ git reset HEAD^
+
+$ git checkout pushed
+
+$ git revert HEAD
+
+
+
+
