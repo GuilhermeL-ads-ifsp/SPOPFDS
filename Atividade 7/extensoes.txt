@@ -1,7 +1,17 @@
+christian-kohler.path-intellisense
+coenraads.bracket-pair-colorizer-2
+dbaeumer.vscode-eslint
 eamodio.gitlens
 ecmel.vscode-html-css
 esbenp.prettier-vscode
+firefox-devtools.vscode-firefox-debug
+formulahendry.auto-rename-tag
+hollowtree.vue-snippets
+humao.rest-client
 mhutchie.git-graph
+mikestead.dotenv
+ms-edgedevtools.vscode-edge-devtools
+ms-vscode.js-debug-nightly
 rbbit.typescript-hero
 ritwickdey.liveserver
 xabikos.javascriptsnippets
